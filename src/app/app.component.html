@@ -1,0 +1,23 @@
+<div class="container">
+       
+<header><span>Tag Editor</span></header>
+
+<div  *ngFor="let b of box">
+<div class="box2">
+        
+                
+    <input #inputtext type="text" id="theFieldID" placeholder="Enter Tag" (keyup.enter)="addbox2()" autofocus />
+   
+    <input type="text" id="textbox2"  style="display: none" [value]="inputtext.value" />
+    <button id="btn2" style="display: none" (click)="addtextbox()">Edit</button>
+    <button (click)="closebox()" id="btnclose"><img src="../assets/close.jpg" /></button>     
+    
+</div>
+</div>
+<button (click)="addbox()" class="btn1"><img src="../assets/plus_img.jpg" /></button>
+
+
+</div>
+
+
+   
