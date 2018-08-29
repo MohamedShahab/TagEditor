@@ -1,3 +1,22 @@
+Notes:
+
+- index file is in the src folder.
+
+# Steps to run the Project
+
+Go to the command prompt and in  project folder  issue the following command -
+
+D:\Projects\TagEditor>npm install
+
+Once done, you should see a tree structure with all dependencies installed.
+
+Now go to your command prompt and issue the command npm start. This will cause the Node package manager to start a lite web server and launch your Angular application.
+
+D:\Projects\TagEditor>npm start
+
+http://localhost:4200/
+
+ 
 # Demo2
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.28.3.
