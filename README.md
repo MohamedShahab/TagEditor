@@ -1,6 +1,7 @@
 Notes:
 
 - index file is in the src folder.
+- node_modules folder is not included in the github
 
 # Steps to run the Project
 
