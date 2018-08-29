@@ -16,6 +16,8 @@ D:\Projects\TagEditor>npm start
 
 http://localhost:4200/
 
+Quickstart code taken from https://github.com/angular/quickstart
+
  
 # Tag Editor
 
